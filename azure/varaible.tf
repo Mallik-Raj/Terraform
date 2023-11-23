@@ -18,10 +18,7 @@ variable "teir" {
   description = "The Teir "
     default = "Basic"
 }
-variable "tier" {
-  description = "The tier of App Service"
-    default = "Basic"
-}
+
 variable "size" {
   description = "The size of App Service "
     

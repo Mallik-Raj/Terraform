@@ -14,3 +14,15 @@ variable "app_service_plan_name" {
   description = "The name of the App Service Plan."
 }
 
+variable "teir" {
+  description = "The Teir "
+    default = "Basic"
+}
+variable "tier" {
+  description = "The tier of App Service"
+    default = "Basic"
+}
+variable "size" {
+  description = "The size of App Service "
+    
+}
